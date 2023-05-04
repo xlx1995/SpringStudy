@@ -1,0 +1,3 @@
+org.springframework.context.ApplicationContextInitializer=\
+  com.base.server.context.NacosClientConfigApplicationContextInitializer,\
+  com.base.server.context.MetadataApplicationContextInitializer
