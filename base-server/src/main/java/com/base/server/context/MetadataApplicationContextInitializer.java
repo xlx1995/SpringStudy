@@ -30,8 +30,6 @@ public class MetadataApplicationContextInitializer implements ApplicationContext
                 return bean;
             }
         });
-        String property = applicationContext.getEnvironment().getProperty("spring.cloud.service-registry.auto-registration.enabled");
-        System.out.println(property);
     }
 
     private void persistMetaInfo(Map<String, String> metadata) {
